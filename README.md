@@ -2,12 +2,12 @@
 1. Imprimir un listado con los números del 1 al 100 cada uno con su respectivo cuadrado.
 ```python
 if __name__ == "__main__":
-    n = int(1) #definimos entero
+    n = int(1) #inicializa a n en 1
     while n <= 100:
         
         """Mientras el valor de n sea menor o igual a 100, se
         va a repertir el print y se le sumara 1 a n cada vez
-        que se repita hasta 100"""
+        que se repita el ciclo"""
         
         print("El cuadrado del número ",n," es", n**2)
         n +=1
