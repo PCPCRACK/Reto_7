@@ -80,4 +80,14 @@ print("acertaste el numero era ",f) #se ejecuta al terminar el ciclo con el valo
 ```
 7. Implementar un programa que ingrese un número de 2 a 50 y muestre sus divisores.
 
+from random import randint
+```python
+if __name__ == "__main__" :
+    n = int(input("ingrese un número de 2 a 50 ")) #se ingresa el valor de n
+    i = 1 #se establece un contador
+    while i <= n : #mientras i sea menor o igual n
+        if n%i == 0 : #si n es divisible por i por residuo igual a 0
+            print(i) #se imprime i
+        i +=1 #se le suma 1 en cada ciclo
+```
 8. Implementar el algoritmo que muestre los números primos del 1 al 100. **nota:** use funciones
