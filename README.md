@@ -62,10 +62,22 @@ if __name__ == "__main__" :
     while n > 1 : #mientras n sea mayor a 1
         n -= 1 #se le resta 1 a n para que no se multiplique por si mismo la primera vez
         f *= n #se multiplica el valor inicial f por el mismo valor menos 1 osea n
-    print("El valor factorial es ",f) #se ejecuta al terminar el ciclo el valor final de f
+    print("El valor factorial es ",f) #se ejecuta al terminar el ciclo 
 ```
 6. Implementar un algoritmo que permita adivinar un número dado de 1 a 100, preguntando en cada caso si el número es mayor, menor o igual.
-
+from random import randint
+```python
+if __name__ == "__main__" :
+    f = randint(1,100) #se elije un valor aleatorio para f
+    n = int(input("Adivina el numero del 1 al 100 ")) #se ingresa el valor de n
+    while n != f : #se compara en caso de que n sea igual f
+        if n < f : #si n es menor que f
+            print("el numero es mayor ")
+        else: #sino
+            print("el numero es menor ")
+            n = int(input("intenta otra vez ")) #se sobreescribe el valor de n y se compara
+print("acertaste el numero era ",f) #se ejecuta al terminar el ciclo con el valor final de f
+```
 7. Implementar un programa que ingrese un número de 2 a 50 y muestre sus divisores.
 
 8. Implementar el algoritmo que muestre los números primos del 1 al 100. **nota:** use funciones
