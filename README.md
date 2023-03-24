@@ -10,7 +10,7 @@ if __name__ == "__main__":
         que se repita el ciclo"""
         
         print("El cuadrado del número ",n," es", n**2) #se eleva el numero dentro del print
-        n +=1
+        n +=1 #se le suma 1 a n cada ciclo
 ```
 2.  Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.
 ```python
