@@ -67,6 +67,8 @@ if __name__ == "__main__" :
 6. Implementar un algoritmo que permita adivinar un número dado de 1 a 100, preguntando en cada caso si el número es mayor, menor o igual.
 from random import randint
 ```python
+from random import randint
+
 if __name__ == "__main__" :
     f = randint(1,100) #se elije un valor aleatorio para f
     n = int(input("Adivina el numero del 1 al 100 ")) #se ingresa el valor de n
