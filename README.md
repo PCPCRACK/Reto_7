@@ -27,7 +27,7 @@ if __name__ == "__main__":
     while n <= 1000: #mientras n sea menor o igual que 1000
         if n%2 == 0: #compara si el valor del la divion por residuo de n es igual a cero
             print (n) #imprime el valor de n en cada ciclo
-        n += 1 #suma 1 al valor de n
+        n += 1 #resta 1 al valor de n
 ```
 3.  Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado
 ```python
