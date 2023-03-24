@@ -82,7 +82,6 @@ print("acertaste el numero era ",f) #se ejecuta al terminar el ciclo con el valo
 ```
 7. Implementar un programa que ingrese un número de 2 a 50 y muestre sus divisores.
 
-from random import randint
 ```python
 if __name__ == "__main__" :
     n = int(input("ingrese un número de 2 a 50 ")) #se ingresa el valor de n
