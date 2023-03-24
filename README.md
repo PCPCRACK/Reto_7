@@ -9,7 +9,7 @@ if __name__ == "__main__":
         va a repertir el print y se le sumara 1 a n cada vez
         que se repita el ciclo"""
         
-        print("El cuadrado del número ",n," es", n**2) #se realiza la elevacion del numero dentro del print
+        print("El cuadrado del número ",n," es", n**2) #se eleva el numero dentro del print
         n +=1
 ```
 2.  Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.
