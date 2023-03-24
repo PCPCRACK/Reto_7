@@ -34,7 +34,7 @@ if __name__ == "__main__":
 if __name__ == "__main__" :
     n = 1000 #inicializa n en 1000
     print("números pares en forma descendente hasta 2") #se ejecuta antes de iniciar el ciclo
-    while n>1: #mientras n sea mayor que 2
+    while n>1: #mientras n sea mayor que 1
         print(n) #imprime el valor de n en cada ciclo
         n -= 1 #suma 1 al valor de n
 ```
