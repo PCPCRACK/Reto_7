@@ -65,7 +65,6 @@ if __name__ == "__main__" :
     print("El valor factorial es ",f) #se ejecuta al terminar el ciclo 
 ```
 6. Implementar un algoritmo que permita adivinar un número dado de 1 a 100, preguntando en cada caso si el número es mayor, menor o igual.
-from random import randint
 ```python
 from random import randint
 
