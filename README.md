@@ -55,6 +55,17 @@ if __name__ == "__main__" :
     con los valores finales de PA,PB y año"""
 ```
 5. Imprimir el factorial de un número natural n dado.
+```python
+if __name__ == "__main__" :
+    n = int(input("Numero factorial ")) #se ingresa el valor de n
+    f = n #inicializa f en n
+    while n > 1 : #mientras n sea mayor a 1
+        n -= 1 #se le resta 1 a n para que no se multiplique por si mismo la primera vez
+        f *= n #se multiplica el valor inicial f por el mismo valor menos 1 osea n
+    print("El valor factorial es ",f) #se ejecuta al terminar el ciclo el valor final de f
+```
 6. Implementar un algoritmo que permita adivinar un número dado de 1 a 100, preguntando en cada caso si el número es mayor, menor o igual.
+
 7. Implementar un programa que ingrese un número de 2 a 50 y muestre sus divisores.
+
 8. Implementar el algoritmo que muestre los números primos del 1 al 100. **nota:** use funciones
