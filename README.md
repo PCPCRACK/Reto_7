@@ -12,6 +12,8 @@ if __name__ == "__main__":
         print("El cuadrado del número ",n," es", n**2) #se eleva el numero dentro del print
         n +=1 #se le suma 1 a n cada ciclo
 ```
+ [![Captura-de-pantalla-20230324-042452.png](https://i.postimg.cc/0NNsN2Kn/Captura-de-pantalla-20230324-042452.png)](https://postimg.cc/nXN5Rxk9)
+ 
 2.  Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.
 ```python
 if __name__ == "__main__":
@@ -29,15 +31,22 @@ if __name__ == "__main__":
             print (n) #imprime el valor de n en cada ciclo
         n += 1 #resta 1 al valor de n
 ```
+
+ [![Captura-de-pantalla-20230324-043509.png](https://i.postimg.cc/s21gNJm3/Captura-de-pantalla-20230324-043509.png)](https://postimg.cc/f3ns3m1P)
+
 3.  Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado
 ```python
 if __name__ == "__main__" :
-    n = 1000 #inicializa n en 1000
+    n = int(1000) #inicializa n en 1000
     print("números pares en forma descendente hasta 2") #se ejecuta antes de iniciar el ciclo
-    while n>1: #mientras n sea mayor que 1
-        print(n) #imprime el valor de n en cada ciclo
-        n -= 1 #suma 1 al valor de n
+    while n>=2: #mientras n sea mayor que 1
+        if n%2 == 0: #compara si el valor del la divion por residuo de n es igual a cero
+            print(n) #imprime el valor de n en cada ciclo si se cumple la condicion
+        n -= 1 #resta 1 al valor de n
 ```
+
+ [![Captura-de-pantalla-20230324-044842.png](https://i.postimg.cc/fWvkkkVn/Captura-de-pantalla-20230324-044842.png)](https://postimg.cc/Lhnmb9kN)
+
 4. En 2022 el país A tendrá una población de 25 millones de habitantes y el país B de 18:9 millones. Las tasas de crecimiento anual de la población serán de 2% y 3% respectivamente. Desarrollar un algoritmo para informar en que año la población del país B superará a
 la de A.
 ```python
