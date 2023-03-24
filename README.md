@@ -107,7 +107,7 @@ def Esne(n : int,):
 
 if __name__ == "__main__" :
     n = int(2) #inicializa n en 3
-    T = 100 #inicializa n en 3
+    T = 100 #inicializa T en 100
     while n < T: #mientras n sea menor que T
         a = Esne(n) #se llama la funcion
         n += 1 #se le suma 1 en cada ciclo
