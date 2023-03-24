@@ -30,8 +30,30 @@ if __name__ == "__main__":
         n += 1 #suma 1 al valor de n
 ```
 3.  Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado
+```python
+if __name__ == "__main__" :
+    n = 1000 #inicializa n en 1000
+    print("números pares en forma descendente hasta 2") #se ejecuta antes de iniciar el ciclo
+    while n>1: #mientras n sea mayor que 2
+        print(n) #imprime el valor de n en cada ciclo
+        n -= 1 #suma 1 al valor de n
+```
 4. En 2022 el país A tendrá una población de 25 millones de habitantes y el país B de 18:9 millones. Las tasas de crecimiento anual de la población serán de 2% y 3% respectivamente. Desarrollar un algoritmo para informar en que año la población del país B superará a
 la de A.
+```python
+if __name__ == "__main__" :
+    PA = 25000000 #inicializa PA en 25000000
+    PB = 18900000 #inicializa PB en 18900000
+    año = 2022 #inicializa año en 2022
+    while PA>=PB : #mientras PA sea mayor o igual que PB
+        print("Poblacion del pais A ",PA," mientas que el pais B tiene ",PB," en el año ",año)
+        PA *= 1.02  #se le aumenta el 2 % cada ciclo
+        PB *= 1.03 #se le aumenta el 3 % cada cilco
+        año += 1 #suma 1 al valor de año
+    print("Poblacion del pais A ",PA," mientas que el pais B tiene ",PB," en el año ",año) 
+    """ se ejecuta al terminar el ciclo 
+    con los valores finales de PA,PB y año"""
+```
 5. Imprimir el factorial de un número natural n dado.
 6. Implementar un algoritmo que permita adivinar un número dado de 1 a 100, preguntando en cada caso si el número es mayor, menor o igual.
 7. Implementar un programa que ingrese un número de 2 a 50 y muestre sus divisores.
