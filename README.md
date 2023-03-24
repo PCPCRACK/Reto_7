@@ -93,3 +93,22 @@ if __name__ == "__main__" :
         i +=1 #se le suma 1 en cada ciclo
 ```
 8. Implementar el algoritmo que muestre los números primos del 1 al 100. **nota:** use funciones
+```python
+def Esne(n : int,):
+        i = int(2) # se establece un contador en 2
+        if n == 2 : #si es dos 
+            print(n)
+        while i < n : #mientras i sea menor a n
+            if n%i == 0: #si n es divisible por i y de residuo igual 0
+                break #se rompe el ciclo
+            elif i == n-1: #si i es igual n-1
+                print(n) 
+            i += 1 #se le suma 1 en cada ciclo
+
+if __name__ == "__main__" :
+    n = int(2) #inicializa n en 3
+    T = 100 #inicializa n en 3
+    while n < T: #mientras n sea menor que T
+        a = Esne(n) #se llama la funcion
+        n += 1 #se le suma 1 en cada ciclo
+```
